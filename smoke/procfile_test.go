@@ -56,7 +56,7 @@ func testProcfile(t *testing.T, context spec.G, it spec.S) {
 			var err error
 			var logs fmt.Stringer
 			image, logs, err = pack.Build.
-				WithPullPolicy("never").
+				WithPullPolicy("always").
 				WithBuilder(Builder).
 				WithBuildpacks(
 					config.Procfile,
