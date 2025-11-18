@@ -3,7 +3,7 @@
     {
       "name": "builder-ubi8-buildpackless-base",
       "path": ".",
-      "container_repository": "builder-ubi8-base",
+      "container_repository": "builder-ubi8-buildpackless-base",
       "test_runners": ["ubuntu-24.04"],
       "test_data": [
         {
