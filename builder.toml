@@ -1,10 +1,10 @@
 description = "ubi 8 builder with no buildpacks included. To use, specify buildpacks at build time."
 
 [build]
-  image = "docker.io/paketobuildpacks/build-ubi8-base:0.0.286"
+  image = "docker.io/paketobuildpacks/build-ubi8-base:0.0.287"
 
 [lifecycle]
-  version = "0.21.19"
+  version = "0.21.20"
 
 [run]
 
