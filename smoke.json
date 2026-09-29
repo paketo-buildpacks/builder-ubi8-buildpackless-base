@@ -1,5 +1,9 @@
 {
   "procfile": "docker.io/paketobuildpacks/procfile",
   "go-dist": "docker.io/paketobuildpacks/go-dist",
-  "build-plan": "docker.io/paketocommunity/build-plan"
+  "build-plan": "docker.io/paketocommunity/build-plan",
+  "node-engine": "docker.io/paketobuildpacks/node-engine",
+  "npm-install": "docker.io/paketobuildpacks/npm-install",
+  "npm-start": "docker.io/paketobuildpacks/npm-start",
+  "ubi-nodejs-extension": "docker.io/paketobuildpacks/ubi-nodejs-extension"
 }
