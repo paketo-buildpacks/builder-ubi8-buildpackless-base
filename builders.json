@@ -7,6 +7,10 @@
       "test_runners": ["ubuntu-24.04"],
       "test_data": [
         {
+          "sample_dir": "nodejs/npm",
+          "test_dir": "smoke/testdata/nodejs/npm"
+        },
+        {
           "sample_dir": "procfile/procfile-sample",
           "test_dir": "smoke/testdata/procfile"
         }
