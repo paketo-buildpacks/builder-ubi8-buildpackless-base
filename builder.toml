@@ -1,28 +1,27 @@
-description = "ubi 8 builder with no buildpacks included. To use, specify buildpacks at build time."
-
-[build]
-  image = "docker.io/paketobuildpacks/build-ubi8-base:0.0.321"
+description = 'ubi 8 builder with no buildpacks included. To use, specify buildpacks at build time.'
 
 [lifecycle]
-  version = "0.21.28"
+version = '0.21.28'
+
+[build]
+image = 'docker.io/paketobuildpacks/build-ubi8-base:0.0.322'
 
 [run]
-
-  [[run.images]]
-    image = "docker.io/paketobuildpacks/run-ubi8-base:latest"
-
-[[targets]]
-  arch = "amd64"
-  os = "linux"
+[[run.images]]
+image = 'docker.io/paketobuildpacks/run-ubi8-base:latest'
 
 [[targets]]
-  arch = "arm64"
-  os = "linux"
+os = 'linux'
+arch = 'amd64'
 
 [[targets]]
-  arch = "ppc64le"
-  os = "linux"
+os = 'linux'
+arch = 'arm64'
 
 [[targets]]
-  arch = "s390x"
-  os = "linux"
+os = 'linux'
+arch = 'ppc64le'
+
+[[targets]]
+os = 'linux'
+arch = 's390x'
